@@ -135,7 +135,7 @@ keys = [
         desc="Spawn browser"),
     Key([mod], 
 	"v", 
-	lazy.spawn('pcmanfm'), 
+	lazy.spawn('kitty -e ranger'), 
 	desc="Spawn file manager"),
     Key([], 
 	"XF86AudioRaiseVolume", 
